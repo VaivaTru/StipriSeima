@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+
+
+/* GENERAL */
+
+body {
+    font-family: 'Lemonada', cursive;
+
+
+}
+
+
+/* NAV */
+.btn-bg-color {
+    color: #F28D77;
+
+}
+
+.btn-bg-color:hover {
+    background-color: #F28D77;
+    color: white;
+
+}
+
+
+
+/* HEADER */
+
+.big-banner {
+    background-image: url(../IMG/Header3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+
+
+
+/* Laikrodis */
+.text-size {
+    font-size: 20px;
+    color: #2D3940;
+}
+
+.laikmatis {
+    font-size: 20px;
+    color: #2D3940;
+
+}
+
+
+
+/* MAIN */
+
+/* Laikrodis */
+.text-size {
+    font-size: 20px;
+    color: #2D3940;
+}
+
+.laikmatis {
+    font-size: 20px;
+    color: #2D3940;
+
+}
+
+/* Main pavadinimu spalva */
+
+.main-color {
+    color: #F27979;
+}
+
+/* Main btn spalva */
+
+.btn-color {
+    background-color: #F28D77;
+    color: white;
+}
+
+/* Main ikonos */
+
+.font-color {
+    color: #F2F2F2;
+    letter-spacing: 0.5em;
+}
+
+
+/* Ikona karuselėje */
+.ikonos-spalva i {
+    color: #D92B2B;
+}
+
+.nav-tabs a {
+    color: #D92B2B;
+
+}
+
+/* Atsiliepimai */
+.slider-area {
+    background: #F28D77;
+    color: aliceblue;
+}
+
+
+.photo-width {
+    width: 150px;
+}
+
+.ats-text-size {
+    font-size: 15px;
+}
+
+.photo-shadow {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* BILIETAI */
+
+/* Style the list */
+.font {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#investicija section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 140px 0;
+
+}
+
+section .card {
+    position: relative;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+    /*balta plėvelė, kad nesimatytų persidengus*/
+    overflow: hidden;
+}
+
+section .card:hover {
+    transform: scale(1.1);
+}
+
+section .card:active {
+    transform: scale(1.4);
+    overflow: hidden;
+}
+
+section .col-sm-12:nth-child(1) .card,
+/* Padaro apskritimą FontAwesome*/
+section .col-sm-12:nth-child(1) .card .title .fas {
+    background: linear-gradient(-45deg, #F2F2F2, #2D3940);
+}
+
+section .col-sm-12:nth-child(2) .card,
+section .col-sm-12:nth-child(2) .card .title .fas {
+    background: linear-gradient(-45deg, #D92B2B, #2D3940);
+}
+
+section .col-sm-12:nth-child(3) .card,
+section .col-sm-12:nth-child(3) .card .title .fas {
+    background: linear-gradient(-45deg, #FFC159, #2D3940);
+}
+
+/* balta plėvelė*/
+section .card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 1;
+    transform: skewY(-5deg) scale(1.5);
+}
+
+/* viršutinis Fontawesome     */
+section .title .fas {
+    color: #fff;
+    font-size: 60px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+section .title h2 {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 0;
+    color: #fff;
+    font-size: 28px;
+    z-index: 2;
+
+}
+
+
+section .price {
+    position: relative;
+    z-index: 2;
+}
+
+/*kainos stilius*/
+
+section .price h4 {
+    margin: 0;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 60px;
+}
+
+section .option {
+    position: relative;
+    z-index: 2;
+}
+
+.option ul {
+    margin: 0;
+    padding: 0;
+}
+
+section .option ul li {
+    margin: 0 0 10px;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+section .price a {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    color: green;
+    width: 150px;
+    height: 40px;
+    /* kad a būtų per vidurį */
+    border-radius: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    margin: 20px auto 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+section .price a:hover {
+    text-decoration: none;
+}
+
+
+/*DUK*/
+.main-color:hover {
+    color: #F28D77;
+}
+
+/* FOOTER */
+
+
+.footer {
+    color: #F28D77;
+
+
+}
+
+.footer i {
+    letter-spacing: 1em;
+    padding-left: 30px;
+}
+
+.p-color {
+    color: #F28D77;
+}
+
+.footer-btn-color {
+    background-color: #F28D77;
+    color: black;
+}
+
+footer li {
+    padding: 0 20px 25px;
+}
+
+footer form {
+    padding: 0 20px;
+}
+
+.footer-padding {
+    padding-left: 45px;
+}
+
+footer p,
+li,
+form {
+    font-size: 15px;
+}
+
+.footer-pavadinimas {
+    font-size: 28px;
+}
+
+.ikonos-dydis {
+    font-size: 38px;
+
+}

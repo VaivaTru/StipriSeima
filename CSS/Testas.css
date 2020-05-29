@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+
+
+/* GENERAL */
+
+body {
+    font-family: 'Lemonada', cursive;
+    /*background: #F28D77;*/
+    
+}
+
+
+
+/* NAV */
+.btn-bg-color {
+    color: #F28D77;
+    
+}
+
+.btn-bg-color:hover {
+    background-color: #F28D77;
+    color: white;
+    
+}
+
+
+
+.big-banner {
+    background-image: url(../IMG/Header3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+} 
+
+/* MAIN */
+
+/* Main pavadinimu spalva */
+
+.main-color {
+    color: #F27979;
+}
+
+/* Main btn spalva */
+
+.btn-color {
+    background-color: #F28D77;
+    color: white;
+}
+  
+/* FOOTER */
+
+
+.footer {
+    color: #F28D77;
+    
+}
+
+.footer i {
+    letter-spacing: 1em;
+    padding-left: 30px;
+}
+
+.p-color {
+    color: #F28D77;
+}
+
+.footer-btn-color {
+    background-color: #F28D77;
+    color: black;
+}
+
+footer li {
+    padding: 0 20px 25px;
+}
+
+footer form {
+    padding: 0 20px;
+}
+
+.footer-padding {
+    padding-left: 45px;
+}
+
+footer p, li, form {
+    font-size: 15px;
+}
+
+.footer-pavadinimas {
+    font-size: 28px;
+}
+
+.ikonos-dydis {
+    font-size: 38px;
+
+}
+

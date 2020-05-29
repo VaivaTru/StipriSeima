@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../CSS/Card2.css">
+    <script src="JS/Store.js" async>  
+    </script>
+    <script src="https://kit.fontawesome.com/f7168076c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">Stipri šeima</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Pradinis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testas">Testas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lektorius">Lektorius</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Grafikas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#investicija">Investicija</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontaktai">Kontaktai</a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seminarų sąrašas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">SP1 "Kaip sukurti darnius santykius?"</a>
+                        <a class="dropdown-item" href="#">SP2 "Kaip spręsti konfliktus?"</a>
+                        <a class="dropdown-item" href="#">SP3 "Kaip sustiprinti intymų ryšį?"</a>
+                        <a class="dropdown-item" href="#">SP4 "Kaip sutarti dėl vaikų auklėjimo?"</a>
+                        <a class="dropdown-item" href="#">SP5 "Kaip sutarti dėl pinigų valdymo?"</a>
+                        <a class="dropdown-item" href="#">SP6 "Kaip sutarti dėl bendro šeimos tikslo ir vertybių?"</a>
+                        <a class="dropdown-item" href="#">SP7 "Kaip sutarti dėl taisyklių?"</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Kažkas</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn my-2 my-sm-0 btn-bg-color" href="#">Pirkinių krepšelis</a>
+
+            </form>
+        </div>
+
+    </nav>
+
+    <!-- HEADER -->
+    <header class="jumbatron big-banner" style="height: 500px; padding: 150px">
+        <section class="hd-bg-color header-color-filter rounded p-5">
+            <div class="p-5">
+                <section class="container-fluid  p-5 ">
+                </section>
+            </div>
+        </section>
+    </header>
+
+
+
+    <!-- MAIN -->
+<main class="container">
+  <h3 class="text-center main-color py-3">Jūsų krepšelis</h3>
+   
+
+   <div class="container-fluid py-5">
+    <div class="row">
+        <aside class="col-lg-9">
+            <div class="card">
+                <div class="table-responsive">
+                    <table class="table table-borderless table-shopping-cart">
+                        <thead class="text-muted">
+                            <tr class="small text-uppercase">
+                                <th scope="col">Seminaro pavadinimas</th>
+                                <th scope="col" width="120">Kiekis</th>
+                                <th scope="col" width="120">Kaina</th>
+                                <th scope="col" class="text-right d-none d-md-block" width="200"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP1.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip sukurti darnius santykius poroje?</a>
+                                            <p class="text-muted small">6 ak. val.<br> </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <p class="price">&euro; 58.00</p> <small class="text-muted">  </small> </div>
+                                </td>
+                                <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                                
+                                 </td>
+                            </tr>
+      <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP2.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip spręsti konfliktus Win-Win būdu?</a>
+                                            <p class="text-muted small"><br> </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <p class="price">&euro; 68.00</p> <small class="text-muted">  </small> </div>
+                                </td>
+                               <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                                
+                                 </td>
+                            </tr>
+                                  <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP3.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip sustiprinti intymų poros ryšį?</a>
+                                            <p class="text-muted small"><br> </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <p class="price">&euro; 98.00</p> <small class="text-muted">  </small> </div>
+                                </td>
+                                <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                                
+                                 </td>
+                            </tr>
+                                 <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP4.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip sutarti dėl vaikų auklėjimo?</a>
+                                            <p class="text-muted small"><br> </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <p class="price">&euro; 58.00</p> <small class="text-muted">  </small> </div>
+                                </td>
+                                <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                                
+                                 </td>
+                            </tr>
+                                 <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP5.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip sutarti dėl pinigų valdymo?</a>
+                                            <p class="text-muted small"><br> </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <p class="price">&euro; 58.00</p> <small class="text-muted">  </small> </div>
+                                </td>
+                                 <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                                
+                                 </td>
+                            </tr>
+                                  <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP6.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip sutarti dėl bendro šeimos tikslo ir vertybių?</a>
+                                            <p class="text-muted small"><br> </p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <div class="price">&euro; 58.00</div> <small class="text-muted">  </small> </div>
+                                </td>
+                                 <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                                
+                                 </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <figure class="itemside align-items-center">
+                                        <div class="aside"><img src="../../IMG/SP.jpg" class="img-sm"></div>
+                                        <figcaption class="info"> <a href="#" class="title text-dark" data-abc="true">Kaip sustiprinti intymų poros ryšį?</a>
+                                            <p class="small text-muted">SIZE:M <br> Brand: Cantabil</p>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td> <select class="form-control">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select> </td>
+                                <td>
+                                    <div class="price-wrap"> <p class="price">$9</p> <small class="text-muted"> $6 each</small> </div>
+                                </td>
+                                 <td class="text-right d-none d-md-block"> <a title="Išsaugoti į norų sąrašą" href="#" class="btn btn-light" data-toggle="tooltip" data-abc="true"> <i class="fa fa-heart" ></i></a> 
+                                <button class="btn btn-danger" type="button">REMOVE</button>
+                               
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </aside>
+        <aside class="col-lg-3">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <form>
+                        <div class="form-group"> <label>Turite nuolaidų kuponą?</label>
+                            <div class="input-group"> <input type="text" class="form-control coupon" name="" placeholder="Kupono kodas"> <span class="input-group-append"> <button class="btn btn-primary btn-apply coupon">Įvesti</button> </span> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <dl class="dlist-align">
+                        <dt>Kaina:</dt>
+                        <dd class="text-right ml-3"></dd>
+                    </dl>
+                    <dl class="dlist-align">
+                        <dt>Nuolaida:</dt>
+                        <dd class="text-right text-danger ml-3"> </dd>
+                    </dl>
+                    <dl class="dlist-align">
+                        <dt>Kaina viso:</dt>
+                        <dd class="text-right text-dark b ml-3"><strong></strong></dd>
+                    </dl>
+                    <hr> <a href="#" class="col-sm-4 col-md-4 col-lg-12 btn btn-out btn-primary  btn-main" data-abc="true"> Užsakyti </a> <br><a href="#" class="col-sm-4 col-md-4 col-lg-12 btn btn-out btn-success btn-square btn-main mt-2" data-abc="true">Tęsti apsipirkimą</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
+</main>
+<!-- FOOTER -->
+    <footer class="container-fluid bg-dark py-4 footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-4">
+                <!-- Apie mus -->
+                <p class="text-center footer-pavadinimas p-color">Apie mus </p>
+                <p class="text-center ikonos-dydis"><i class="fas fa-home"></i></p>
+
+                <p>Siekiame sustiprinti sutuoktinių gebėjimus kurti darnius santykius, taikiai spręsti konfliktus, susitarti dėl bendro gyvenimo taisyklių, išgryninti šeimos tikslą ir vertybes. </p>
+                <p>Padedame žmonėms įveikti santykių krizes bei išgyventi skyrybas. </p>
+                <p>Didelį dėmesį skiriame visuomenės švietimui santykių temomis.</p>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-4">
+                <!-- Kontaktai -->
+                <p class="text-center footer-pavadinimas p-color" id="kontaktai">Kontaktai</p>
+                <ul class="list-unstyled">
+                    <li class="text-center ikonos-dydis"><i class="fas fa-mobile-alt"></i></li>
+                    <li class="footer-padding">VšĮ Pažangūs sprendimai</li>
+                    <li><i class="fa fa-map-marker"></i>Fabijoniškių g. 99-311 Vilnius</li>
+                    <li><i class="fa fa-phone"></i>8 659 54 009</li>
+                    <li><i class="fa fa-envelope"></i>porupsichologas@gmail.com</li>
+                    <li><i class="fa fa-clock-o"></i>09:00-20:00</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 px-4">
+                <!-- Seminarų sąrašas -->
+                <p class="text-center footer-pavadinimas p-color">Susisiekite</p>
+                <p class="text-center ikonos-dydis"><i class="fas fa-mail-bulk"></i></p>
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Jūsų vardas</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Vardas">
+
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Jūsų el. pašto adresas</label>
+                            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="vardas@pavarde.lt">
+                            <small id="emailHelp" class="form-text text-muted">Mes neperduosime Jūsų el. pašto kitiems</small>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn footer-btn-color">Siųsti</button>
+                </form>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+
+
+
+    <script src="JS/JS.js">
+
+    </script>
+    
+    
+</body>
+
+</html>

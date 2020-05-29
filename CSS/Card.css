@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+
+
+/* GENERAL */
+
+body {
+    font-family: 'Lemonada', cursive;
+    
+}
+
+
+
+/* NAV */
+.btn-bg-color {
+    color: #F28D77;
+    
+}
+
+.btn-bg-color:hover {
+    background-color: #F28D77;
+    color: white;
+    
+}
+
+
+/* HEADER */
+.big-banner {
+    background-image: url(../IMG/Header3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+} 
+
+/* MAIN */
+
+/* Main pavadinimu spalva */
+
+.main-color {
+    color: #F27979;
+}
+
+/* Main btn spalva */
+
+.btn-color {
+    background-color: #F27979;
+    color: white;
+}
+
+/*Main*/
+
+#kiekis {
+  width: 80px;  
+}
+
+#kaina {
+  width: 120px;  
+}
+
+#ikona {
+  width: 200px;  
+}
+ 
+/*Let all the flexible items be the same length, regardless of its content:*/
+ .card-body {
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto;
+     padding: 1.40rem
+ }
+
+ .img-sm {
+     width: 80px;
+     height: 80px
+ }
+
+ .itemside .info {
+     padding-left: 15px;
+     padding-right: 7px
+ }
+
+ .table-shopping-cart .price-wrap {
+     line-height: 1.2
+ }
+
+ .table-shopping-cart .price {
+     font-weight: bold;
+     margin-right: 5px;
+     display: block
+ }
+
+.coupon {
+    background-color: #F27979;
+    color: white;
+}
+
+.testi {
+    
+  background-color: #2D3940;  
+}
+
+
+ .card {
+     position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-color: #fff;
+     background-clip: border-box;
+     
+     
+ }
+
+ .itemside {
+     /*position: relative;*/
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     width: 100%;
+ }
+
+ .dlist-align {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+ }
+
+
+
+ .price {
+     font-weight: 600;
+     color: #212529;
+ }
+/*tarpelis btn prie užsakymo mygtuko*/
+ .btn.btn-out {
+     outline: 1px solid #fff;
+     outline-offset: -5px;
+ }
+
+ .btn-main {
+       font-size: 15px;
+     padding: 10px 19px;
+       color: #fff;
+    
+ }
+/*Norų sąrašas*/
+ .btn-light {
+     color: #ffffff;
+     background-color: #F44336;
+     border-color: #f8f9fa;
+     font-size: 12px;
+ }
+
+ .btn-light:hover {
+     color: #ffffff;
+     background-color: #F44336;
+     border-color: #F44336
+ }
+
+ .btn-apply {
+     font-size: 11px;
+ }
+
+
+/* FOOTER */
+
+
+.footer {
+    color: #F28D77;
+    
+}
+
+.footer i {
+    letter-spacing: 1em;
+    padding-left: 30px;
+}
+
+.p-color {
+    color: #F28D77;
+}
+
+.footer-btn-color {
+    background-color: #F28D77;
+    color: black;
+}
+
+footer li {
+    padding: 0 20px 25px;
+}
+
+footer form {
+    padding: 0 20px;
+}
+
+.footer-padding {
+    padding-left: 45px;
+}
+
+footer p, li, form {
+    font-size: 15px;
+}
+
+.footer-pavadinimas {
+    font-size: 28px;
+}
+
+.ikonos-dydis {
+    font-size: 38px;
+
+}
+
